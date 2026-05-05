@@ -1,0 +1,23 @@
+{
+  "appId": "com.klyoiptv.player",
+  "appName": "KlyoIPTV Player",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true,
+    "allowNavigation": ["*"]
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#0a0e16",
+      "showSpinner": false
+    }
+  }
+}

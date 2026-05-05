@@ -1,0 +1,17 @@
+{
+  "name": "klyoiptv-player",
+  "version": "1.0.0",
+  "description": "KlyoIPTV Player - Reproductor M3U y Xtream para Android",
+  "main": "index.js",
+  "scripts": {
+    "sync": "npx cap sync android",
+    "build-android": "npx cap build android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}
